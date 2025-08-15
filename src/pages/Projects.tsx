@@ -14,6 +14,18 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      title: "Streamify – Music Streaming Platform",
+      description: "A dynamic music streaming web application offering seamless playback, curated playlists, and personalized recommendations.",
+      longDescription: "Streamify is a full-stack music streaming platform designed to deliver a smooth and engaging listening experience. It features user authentication, playlist creation, track search, audio player controls, and personalized music suggestions. The project integrates streaming APIs, responsive UI design, and secure backend architecture to ensure performance and scalability.",
+      tech: ["React", "Node.js", "Express", "MongoDB", "Redux", "REST API", "JWT", "Audio API"],
+      category: ["Full-Stack", "Web Development"],
+      github: "https://github.com/Clou-D-Walker/streamify", 
+      demo: "https://streamify-q9w6.onrender.com/",
+      featured: true,
+      year: "2024"
+    },    
+    {
+      id: 2,
       title: "MERN Chat + AI Assistant",
       description: "A sophisticated chat application built with the MERN stack, featuring real-time messaging and an integrated AI assistant for enhanced user interaction.",
       longDescription: "This project demonstrates full-stack capabilities with real-time communication, user authentication, message persistence, and AI integration. Features include typing indicators, message history, user profiles, and intelligent AI responses powered by modern language models.",
@@ -25,7 +37,7 @@ const Projects = () => {
       year: "2024"
     },
     {
-      id: 2,
+      id: 3,
       title: "Hotel Booking Management",
       description: "A comprehensive hotel booking system with user authentication, room management, and booking functionality.",
       longDescription: "Complete hotel management solution featuring room availability tracking, booking management, user authentication, payment integration, and admin dashboard for hotel operations.",
@@ -37,7 +49,7 @@ const Projects = () => {
       year: "2024"
     },
     {
-      id: 3,
+      id: 4,
       title: "Next.js Production App",
       description: "A production-ready Next.js application showcasing modern web development practices and deployment strategies.",
       longDescription: "Enterprise-level Next.js application with server-side rendering, API routes, optimized performance, SEO best practices, and production deployment on Vercel.",
@@ -49,7 +61,7 @@ const Projects = () => {
       year: "2024"
     },
     {
-      id: 4,
+      id: 5,
       title: "LibroSphere CRUD System",
       description: "A comprehensive book management system with full CRUD operations built using the MERN stack.",
       longDescription: "Complete library management system with book cataloging, user management, borrowing system, search functionality, and administrative controls for managing library operations.",

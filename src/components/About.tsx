@@ -26,7 +26,7 @@ const About = () => {
     {
       icon: Award,
       title: "Certifications",
-      content: "JavaScript, TypeScript, Web Development",
+      content: "JavaScript, DSA, TypeScript, Web Development",
       detail: "Industry-recognized credentials"
     }
   ];
@@ -45,7 +45,7 @@ const About = () => {
           </h2>
           <div className="max-w-3xl mx-auto">
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              I am a backend and full-stack developer with a strong foundation in scalable system design, 
+              I am a backend and full-stack developer with a foundation in scalable system design, 
               API development, and modern web architectures. I'm currently diving into the world of 
               <span className="text-primary font-semibold"> Generative AI</span>, exploring LLMs and 
               multi-agent systems to expand my problem-solving capabilities.
@@ -116,65 +116,8 @@ const About = () => {
 
 
         {/* Journey Timeline Preview */}
-        <div className="mt-16 text-center">
-          <h3 className="text-2xl font-bold font-heading mb-8">My Journey So Far</h3>
-          <div className="max-w-4xl mx-auto">
-            <div className="relative">
-              {/* Timeline line */}
-              <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-gradient-to-b from-primary via-accent to-primary"></div>
-              
-              <div className="space-y-12">
-                {/* 2022 */}
-                <div className="relative flex items-center justify-between">
-                  <div className="w-5/12 text-right pr-8">
-                    <div className="glass p-4 rounded-lg border-border/50">
-                      <h4 className="font-semibold text-primary">2022</h4>
-                      <p className="text-sm text-muted-foreground">Started B.Tech journey</p>
-                    </div>
-                  </div>
-                  <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-primary rounded-full border-4 border-background"></div>
-                  <div className="w-5/12"></div>
-                </div>
+        
 
-                {/* 2023 */}
-                <div className="relative flex items-center justify-between">
-                  <div className="w-5/12"></div>
-                  <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-primary rounded-full border-4 border-background"></div>
-                  <div className="w-5/12 text-left pl-8">
-                    <div className="glass p-4 rounded-lg border-border/50">
-                      <h4 className="font-semibold text-primary">2023</h4>
-                      <p className="text-sm text-muted-foreground">NSS & InternPE experience</p>
-                    </div>
-                  </div>
-                </div>
-
-                {/* 2024 */}
-                <div className="relative flex items-center justify-between">
-                  <div className="w-5/12 text-right pr-8">
-                    <div className="glass p-4 rounded-lg border-border/50">
-                      <h4 className="font-semibold text-primary">2024</h4>
-                      <p className="text-sm text-muted-foreground">AI integration & full-stack mastery</p>
-                    </div>
-                  </div>
-                  <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-primary rounded-full border-4 border-background"></div>
-                  <div className="w-5/12"></div>
-                </div>
-
-                {/* 2025 */}
-                <div className="relative flex items-center justify-between">
-                  <div className="w-5/12"></div>
-                  <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-gradient-to-r from-primary to-accent rounded-full border-4 border-background glow"></div>
-                  <div className="w-5/12 text-left pl-8">
-                    <div className="glass p-4 rounded-lg border-primary/30 glow">
-                      <h4 className="font-semibold gradient-text">2025</h4>
-                      <p className="text-sm text-muted-foreground">GenAI focus & LLM systems</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
       </section>
     </ScrollAnimation>

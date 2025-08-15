@@ -7,7 +7,7 @@ import profileImage from "@/assets/surya-profile.png";
 
 const Hero = () => {
   const [typingText, setTypingText] = useState('');
-  const fullText = 'Developing smart solutions with code that\'s a joy to read.';
+  const fullText = 'Turning ideas into smart, powerful, and elegant code.';
 
   useEffect(() => {
     let index = 0;
@@ -66,8 +66,8 @@ const Hero = () => {
           <ScrollAnimation direction="left" delay={0.2}>
             <div className="flex-1 text-center lg:text-left space-y-8">
             <div className="space-y-4">
-              <div className="text-sm font-medium text-primary uppercase tracking-wider">
-              Where the Bugs Are Few and the Features Are Plenty ☺️
+              <div className="text-base font-medium text-primary uppercase tracking-wider">
+              Your Ideas, My Code, Limitless Possibilities.
               </div>
               
               <h1 className="text-5xl lg:text-7xl font-bold font-heading leading-tight">

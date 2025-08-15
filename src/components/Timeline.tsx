@@ -6,30 +6,23 @@ import ScrollAnimation from "./ScrollAnimations";
 const Timeline = () => {
   const timelineItems = [
     {
-      year: "2022",
-      title: "Started B.Tech Journey",
-      description: "Began Computer Science studies at IIIT Sri City, building strong fundamentals in programming and system design.",
-      icon: Award,
-      color: "text-blue-400"
-    },
-    {
       year: "2023",
-      title: "NSS Leadership & Web Development",
-      description: "Led campus events as NSS Volunteer, increasing participation from 200 to 400+. Joined InternPE for hands-on web development experience.",
+      title: "NSS, Leadership & Web Development",
+      description: "Led campus events as NSS Volunteer, increasing participation from 200 to 400+.  Been the full stack courses Team Lead for consecutively 3 Semesters and mentored the peers. Joined InternPE for hands-on web development experience.",
       icon: Briefcase,
       color: "text-green-400"
     },
     {
       year: "2024",
       title: "Full-Stack Development Mastery",
-      description: "Built multiple MERN applications including AI Chat Assistant and Hotel Booking System. Mastered Docker, AWS, and cloud deployment.",
+      description: "Built multiple MERN applications including AI Chat Assistant and Hotel Booking System. Learned Docker, AWS, and cloud deployment.",
       icon: Code,
       color: "text-purple-400"
     },
     {
       year: "2025",
       title: "AI & Machine Learning Focus",
-      description: "Diving deep into Generative AI, exploring LLMs, multi-agent systems, and prompt engineering for intelligent solutions.",
+      description: "Leaning Generative AI, LLMs, multi-agent systems, automation and prompt engineering for intelligent solutions.",
       icon: Calendar,
       color: "text-orange-400"
     }

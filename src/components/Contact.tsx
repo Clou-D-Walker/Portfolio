@@ -104,7 +104,7 @@ const Contact = () => {
               <span className="gradient-text">Collaborate</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-body">
-              I'm always open to discussing new opportunities, interesting projects, or just having a conversation about technology and innovation.
+            I’m a passionate Full Stack Developer and AI Engineer at the fresher level, eager to contribute to impactful projects and grow my skills. Currently seeking opportunities to learn, collaborate, and innovate in the tech space. Feel free to reach out for potential roles, projects, or even just a chat about technology.
             </p>
           </div>
 
@@ -114,8 +114,8 @@ const Contact = () => {
               <div>
                 <h3 className="text-2xl font-bold font-heading mb-6">Get in touch</h3>
                 <p className="text-muted-foreground font-body mb-8 leading-relaxed">
-                  Whether you have a project in mind, want to collaborate, or just want to say hello, 
-                  I'd love to hear from you. Feel free to reach out through any of the channels below.
+                Whether you’re hiring, exploring collaboration, or simply wish to connect,
+                I’m eager to hear from you. Let’s explore how we can create something impactful together—feel free to reach out through any of the channels below.
                 </p>
               </div>
 
