@@ -14,12 +14,12 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Streamify – Music Streaming Platform",
-      description: "A dynamic music streaming web application offering seamless playback, curated playlists, and personalized recommendations.",
-      longDescription: "Streamify is a full-stack music streaming platform designed to deliver a smooth and engaging listening experience. It features user authentication, playlist creation, track search, audio player controls, and personalized music suggestions. The project integrates streaming APIs, responsive UI design, and secure backend architecture to ensure performance and scalability.",
-      tech: ["React", "Node.js", "Express", "MongoDB", "Redux", "REST API", "JWT", "Audio API"],
-      category: ["Full-Stack", "Web Development"],
-      github: "https://github.com/Clou-D-Walker/streamify", 
+      title: "Streamify – Fullstack Chat & Video Calling App",
+      description: "A feature-rich real-time communication platform with instant messaging, secure video calls, and a vibrant UI.",
+      longDescription: "Streamify is a fullstack chat and video calling application designed for seamless real-time communication. It offers 1-on-1 messaging, private video calls, typing indicators, message reactions, and secure JWT authentication. The app also includes a unique language exchange feature, customizable themes (32 in total), and responsive design for all devices. Powered by Stream API for reliable real-time functionality, Zustand for state management, and a scalable Node.js + Express + MongoDB backend, Streamify ensures smooth performance and an engaging user experience.",
+      tech: ["React", "Node.js", "Express", "MongoDB", "TailwindCSS", "TanStack Query", "Zustand", "Stream API", "JWT"],
+      category: ["Full-Stack", "Web Development", "Real-Time Apps"],
+      github: "https://github.com/Clou-D-Walker/streamify",
       demo: "https://streamify-q9w6.onrender.com/",
       featured: true,
       year: "2024"
